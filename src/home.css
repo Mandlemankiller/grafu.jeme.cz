@@ -1,0 +1,21 @@
+.banner {
+    width: 40%;
+    margin-top: 10vmin;
+    animation: banner-show 3s;
+    filter: brightness(2) drop-shadow(5px 5px 10px rgb(var(--shadow)));
+}
+
+@keyframes banner-show {
+    0% {
+        filter: brightness(1) drop-shadow(5px 5px 10px rgb(var(--shadow)));
+    }
+    100% {
+        filter: brightness(2) drop-shadow(5px 5px 10px rgb(var(--shadow)));
+    }
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
